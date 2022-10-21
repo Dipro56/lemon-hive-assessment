@@ -2,6 +2,7 @@
   background-image: url('../public/assets/bg_shaded.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
 }
 
 .toggle-nav-visibility {
@@ -13,4 +14,37 @@
   font-size: 18px;
   font-family: Poppins;
   font-weight: bold;
+}
+
+.poppins-font {
+  color: #333333;
+  font-family: Poppins;
+}
+
+
+.bg-mobile {
+  background-image: url('../public/assets/bg_mobile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+    'header header  header   right right right '
+  ;
+
+
+}
+
+.indside-grid-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.schedule-section{
+  display: grid;
+  width: 100%;
 }
