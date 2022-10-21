@@ -1,0 +1,16 @@
+.bg-shaded {
+  background-image: url('../public/assets/bg_shaded.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.toggle-nav-visibility {
+  display: none;
+}
+
+.text-link {
+  color: #333333;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: bold;
+}
